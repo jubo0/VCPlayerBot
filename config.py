@@ -40,7 +40,7 @@ class Config:
     SESSION = os.environ.get("SESSION_STRING", "BQAMpEF7dsLL3Nbumt68EVJVqLmNRjP13GdNRmY2ZbSIZmpVDIJ4uMCs-xbEtcu8f4p0X7fO6hG2H9vBP2TWDdQkMEQ_GNwZ3hSguUTh_599LjM981jrZXR9oEu7OoPtk-Z-oowA2IZiO9fuUgMuoDWu-qKQqEOqMBlSk-MCyonoU6zDICb0iwFQEyavjvFHYUz8D8zA29p6hGurdI8TkoT_Jyj_8N0Q8VFPAfGvDO2HKYJUGDb5FTjirI-p4DxGAWn_Q_sUgS6FJ4GK4SZxHNuVhJVzNpRNYfOp2OdQb6iHlwE1mYPVyJsv9n0lFKhdtT7DsLmD8Wk8SU_BLabhOWmWAAAAASp-iUwA")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", "-1001578688931"))
+    CHAT = int(os.environ.get("CHAT", "-1001735800422"))
     LOG_GROUP=os.environ.get("LOG_GROUP", "-1001735800422")
 
     #Stream 
