@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@jubo0 
-jubo0
-/
-VCPlayerBot
-Public
-forked from subinps/VCPlayerBot
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-VCPlayerBot/config.py /
-@jubo0
-jubo0 Update config.py
-Latest commit f5e2f92 15 hours ago
- History
- 3 contributors
-@subinps@arunpt@jubo0
-443 lines (333 sloc)  16.4 KB
-
 #!/usr/bin/env python3
 # Copyright (C) @subinps
 # This program is free software: you can redistribute it and/or modify
@@ -393,18 +363,3 @@ For more info on channel play , read help from player section.__
 17. `BITRATE` : __Bitrate of audio (Not recommended to change).__
 18. `FPS` : __Fps of video to be played (Not recommended to change.)__
 """
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-VCPlayerBot/config.py at main · jubo0/VCPlayerBot
