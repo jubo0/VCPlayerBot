@@ -34,10 +34,10 @@ class Config:
     ADMIN = os.environ.get("ADMINS", '822711564 1193977766 1495023343 1844303560 5181756679')
     SUDO = [int(admin) for admin in (ADMIN).split()] # Exclusive for heroku vars configuration.
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
-    API_ID = int(os.environ.get("API_ID", '8686284'))
-    API_HASH = os.environ.get("API_HASH", "7110ae077d17a409b92718e44e9a4ad8")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5169334094:AAHgNDYr0xuyTtdYesJAhRgzdpVdz4PL4VY")     
-    SESSION = os.environ.get("SESSION_STRING", "BQAMfeT0Hc_m4rGop9ifn-l-Z_FqXlhMmhJoLgNELbGK39m1SemCL1cjA2R_CPT_8QlQldjuZQDuADlG9azQN_lBjAGnsEujw2ZO3ly57pZ4SBI-u0u-9gLmPy1Ge1iDIryVyR69w5rbCYScxtmQ0o6URnSIrBMNeW5EzOcytUzrukkbSQ7I3L0O4X8O7Tp1FjLQhziv4Z8Vyt55RuV4tiJpGnGmeUf2ZES6B6Ii9s5GYDf8Mjrza7-qfKrKKd6Zmend7_IwJXouo0TCg2m-FOzxoJuJ1rPVgl0RO3Cvlz6w1aJkxcPY7jTSIIBkjrKwgfk0wgmP6m9e55C4wrqmv8_pAAAAASp-iUwA")
+    API_ID = int(os.environ.get("API_ID", '13393249'))
+    API_HASH = os.environ.get("API_HASH", "396917c94585b07b1b2f73657cdd3a7a")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5625949259:AAGDmyKsKXV26AhZA3ymc1K41s0x7yhhlWk")     
+    SESSION = os.environ.get("SESSION_STRING", "AQBKKytY2RuMR0AYQ88UoRO4LdUcbFOYWNNSjnfnn4O0Y5iF5BQ6AHWm4iTFURJ3BHE7Ome7HNawthHnkkXxqxvmLGD_01NqEiu_6EDUESnCWpyb-sEQjiQg9S6aPYi2GE44q-vxLpxR6ASePThm540o24VCkAJnVY9vQSzLlyek7bd027tJATq7zPDETYpMG5Ylzt1zek4P-Wt-j66XcqywP4u8wO58OsYz_DjjnDTm2E6yzOuDdM4RaU-k7rytqjie43BG2BG4CFogBZA2Vk3SAHH1w_YjjHBORcfR9pEip61Ew5CQ1mXyx_oSoe6PFhdpLE_5IWd8MBcbKPmVjwU-AAAAAULEUQMA")
 
     #Stream Chat and Log Group
     CHAT = int(os.environ.get("CHAT", "-1001735800422"))
@@ -47,8 +47,8 @@ class Config:
     STREAM_URL=os.environ.get("STARTUP_STREAM", "https://www.youtube.com/watch?v=zcrUCvBD16k")
    
     #Database
-    DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb+srv://videoplayer:videoplayer@cluster0.pwz78bv.mongodb.net/?retryWrites=true&w=majority")
-    DATABASE_NAME=os.environ.get("DATABASE_NAME", "videoplayer")
+    DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb+srv://redzone:redzone@cluster0.usrv3w1.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_NAME=os.environ.get("DATABASE_NAME", "redzone")
 
 
     #heroku
